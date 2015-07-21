@@ -26,7 +26,7 @@ class LanguagePack::Base
   # @param [String] the path of the cache dir this is nil during detect and release
   def initialize(build_path, cache_path=nil)
      self.class.instrument "base.initialize" do
-      @app_subdir    = 'recombine-admin'
+      @app_subdir    = 'recombine-bioinformatics'
       @base_path     = build_path
       @build_path    = File.join(@base_path, @app_subdir)
       @stack         = ENV.fetch("STACK")
