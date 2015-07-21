@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ -f "$1/recombine-sales/Gemfile" ]; then
+if [ -f "$1/recombine-admin/Gemfile" ]; then
   echo "Ruby"
   exit 0
 else
